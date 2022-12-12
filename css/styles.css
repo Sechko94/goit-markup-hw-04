@@ -149,8 +149,9 @@ span {
   gap: 24px;
 }
 
-.feature-svg {
-  max-width: 264px;
+svg {
+  width: 64px;
+  height: 64px;
 }
 
 .text {
