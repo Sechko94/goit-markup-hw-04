@@ -148,17 +148,9 @@ span {
   display: flex;
   gap: 24px;
 }
-.feature-list-item::before {
-  display: inline-block;
-  content:" " ;
-  width: 264px;
-  height: 112px;
-  background-color: var(--second-background-color);
-  border-radius: 4px;
-  margin-bottom: 8px;
-  background-image: url();
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+
+.feature-svg {
+  max-width: 264px;
 }
 
 .text {
@@ -244,6 +236,14 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+
+
+/* CUSTOMERS */ 
+
+
+
+
 /* FOOTER */
 .footer {
   background-color: var(--secondary-text-color);
